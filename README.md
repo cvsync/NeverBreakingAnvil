@@ -8,11 +8,15 @@ Chipped and damaged anvils within a specified area around each player are automa
 
 It works in both single-player worlds and multiplayer servers.
 
+To use it on a multiplayer server, set `function-permission-level` to 2 in the server configuration `server.properties`.
+
 金床が壊れるのを防ぐマインクラフトのデータパックです。
 
 プレイヤーの位置を中心に、東西南北にそれぞれ2ブロック、上に2ブロック、下に1ブロックの範囲内にある劣化した金床が自動的に修復されます。
 
 シングルプレイとマルチプレイのどちらにも対応しています。
+
+マルチプレイで使用する場合は `server.properties` の `function-permission-level` を 2 にしてください。
 
 ## Latest Release
 
