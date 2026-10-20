@@ -39,8 +39,8 @@ FUNCTION_DSTDIR=${TMPDIR}/${FUNCTION_RELPATH}
 MCFUNCTION_RELPATH=data/${FUNCTION_NAMESPACE}/function
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
-mkdir -p ${TMPDIR} ${TMPDIR}/data
-mkdir -p ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags ${TMPDIR}/data/minecraft/tags/function
+mkdir -p ${TMPDIR} ${TMPDIR}/data ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags
+mkdir -p ${TMPDIR}/data/minecraft/tags/function
 mkdir -p ${TMPDIR}/data/${FUNCTION_NAMESPACE} ${TMPDIR}/data/${FUNCTION_NAMESPACE}/function
 cp ${FUNCTION_SRCDIR}/tick.json ${FUNCTION_DSTDIR}/tick.json
 cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
